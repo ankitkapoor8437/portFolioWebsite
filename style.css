@@ -51,7 +51,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
     position: relative;
 }
 
@@ -74,7 +74,8 @@ nav ul li a:hover::after {
 
 /* Details section */
 .header-text {
-    margin-top: 20%;
+    /* margin-top: 20%; */
+    margin: 10% 10px 10% 10px;
     font-size: 30px;
 }
 
@@ -162,8 +163,9 @@ nav ul li a:hover::after {
 
 .tab-contents ul li span {
     color: #b54769;
-    font-size: 14px;
+    font-size: 20px;
 }
+
 
 .tab-contents {
     display: none;
