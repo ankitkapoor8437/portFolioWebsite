@@ -48,6 +48,10 @@ nav ul li {
     font-weight: bold;
 }
 
+/* nav {
+    position: fixed;
+} */
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -170,13 +174,13 @@ nav ul li a:hover::after {
 
 }
 
-.tab-contents ul li span i{
+.tab-contents ul li span i {
     color: #b54769;
     font-size: 18px;
 
 }
 
-.tab-contents ul li i{
+.tab-contents ul li i {
     /* color: #b54769;
     font-size: 20px; */
     line-height: 28px;
@@ -187,7 +191,7 @@ nav ul li a:hover::after {
 
 .tab-contents {
     display: none;
-   
+
 }
 
 .tab-contents.active-tab {

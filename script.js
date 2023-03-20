@@ -49,3 +49,16 @@ form.addEventListener('submit', e => {
         .catch(error => console.error('Error!', error.message))
 })
 
+
+/* Animation for name */
+
+let typed = new Typed('.name', {
+    strings: [`Ankit Kapoor`],
+    typeSpeed: 100,
+    backSpeed: 0,
+    // backDelay: 100,
+    startDelay: 600,
+    // fadeOut:100;
+    fadeOut:true,        
+    loop: true
+});
