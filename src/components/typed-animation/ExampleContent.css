@@ -1,0 +1,20 @@
+.animation-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .animation-text {
+    position: absolute;
+    left: -100%;
+    animation: slide-in 2s linear infinite;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  
