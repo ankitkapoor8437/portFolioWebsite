@@ -1,0 +1,27 @@
+
+/* Copyright Scetion */
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+nav .fa-solid.fa-bars {
+    display: none;
+}
+
+
+nav ul .fa-solid.fa-xmark {
+    display: none;
+}
+
+#msg {
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
+
